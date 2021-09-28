@@ -9,8 +9,8 @@ import (
 type Platform int8
 
 const (
-	TencentPlatform Platform = 1 << iota // qq音乐
-	NeteasePlatform                      //网易云
+	TencentPlatform Platform = iota // qq音乐
+	NeteasePlatform                 //网易云
 )
 
 type Driver interface {
